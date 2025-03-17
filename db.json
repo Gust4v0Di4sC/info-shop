@@ -1,0 +1,168 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "Email": "adm@gmail.com",
+      "password": "senha"
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "senha",
+      "id": "WKXouxG"
+    },
+    {
+      "email": "adm@gmail.com",
+      "password": "senha",
+      "id": "-oXH79V"
+    },
+    {
+      "email": "adm@gmail.com",
+      "password": "senha",
+      "id": "H-Kv5Fv"
+    },
+    {
+      "email": "adm@gmail.com",
+      "password": "senha",
+      "id": "ZkQ3nH0"
+    },
+    {
+      "email": "usuario@exemplo.com",
+      "password": "senha123",
+      "id": "MBCdmgm"
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": "lfqEurb"
+    },
+    {
+      "email": "adm@gmail.com",
+      "password": "senha",
+      "id": "X-U26UZ"
+    },
+    {
+      "email": "adm@gmail.com",
+      "password": "senha",
+      "id": "8ouheNA"
+    }
+  ],
+  "clients": [
+    {
+      "name": "Aristides Ryujin",
+      "age": 54,
+      "address": "Rua Serafina Corrêa",
+      "cpf": "1287377764",
+      "phone": "7288634788",
+      "imageUrl": "http://localhost:3001/uploads/1741636825990-178985879.jpg",
+      "id": 1
+    },
+    {
+      "name": "Estela Nazukawa",
+      "age": 35,
+      "address": "Travessa do Cruzeiro",
+      "cpf": "482788777",
+      "phone": "3799898488",
+      "imageUrl": "http://localhost:3001/uploads/1741636923421-755063047.jpg",
+      "id": 2
+    },
+    {
+      "name": "Paulo Antonio",
+      "age": 45,
+      "address": "Rua Cezário Mancine",
+      "cpf": "234454555",
+      "phone": "3746299889",
+      "imageUrl": "http://localhost:3001/uploads/1741636972919-356394853.jpg",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "name": "Kit gamer INTEL I9",
+      "model": "Intel e GEFORCE",
+      "price": 5499,
+      "cost": 2300,
+      "description": "Kit gamer para turbinar seu pc",
+      "imageUrl": "http://localhost:3001/uploads/1741636285054-41304651.jpg",
+      "id": 1
+    },
+    {
+      "name": "Mouse Logitech l4000",
+      "model": "l4000",
+      "price": 68.89,
+      "cost": 87.9,
+      "description": "Mouse básico logitech",
+      "imageUrl": "http://localhost:3001/uploads/1741636347314-458134842.jpg",
+      "id": 2
+    },
+    {
+      "name": "Notebook Lenovo Ryzen 5",
+      "model": "xn4560",
+      "price": 3450,
+      "cost": 877.9,
+      "description": "Notebook de entrada Lenovo",
+      "imageUrl": "http://localhost:3001/uploads/1741636409654-28101024.jpg",
+      "id": 3
+    }
+  ],
+  "orders": [
+    {
+      "clientId": 3,
+      "name": "Paulo Antonio",
+      "userId": 3,
+      "address": "Rua Cezário Mancine",
+      "productId": 1,
+      "product": "Kit gamer INTEL I9",
+      "imageProd": "http://localhost:3001/uploads/1741636285054-41304651.jpg",
+      "imageClient": "http://localhost:3001/uploads/1741636972919-356394853.jpg",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "clientId": 2,
+      "name": "Estela Nazukawa",
+      "userId": 2,
+      "address": "Travessa do Cruzeiro",
+      "productId": 3,
+      "product": "Notebook Lenovo Ryzen 5",
+      "imageProd": "http://localhost:3001/uploads/1741636409654-28101024.jpg",
+      "imageClient": "http://localhost:3001/uploads/1741636923421-755063047.jpg"
+    },
+    {
+      "clientId": 1,
+      "name": "Aristides Ryujin",
+      "userId": 1,
+      "address": "Rua Serafina Corrêa",
+      "productId": 2,
+      "product": "Mouse Logitech l4000",
+      "imageProd": "http://localhost:3001/uploads/1741636347314-458134842.jpg",
+      "imageClient": "http://localhost:3001/uploads/1741636825990-178985879.jpg",
+      "id": 3
+    }
+  ],
+  "uploads": [
+    {
+      "id": 1737673928564,
+      "filename": "1737673928556-398386849.jpg",
+      "originalName": "pexels-alex-knight-2599244 (1).jpg",
+      "path": "/uploads/1737673928556-398386849.jpg",
+      "size": 424659,
+      "mimetype": "image/jpeg"
+    },
+    {
+      "id": 1737676979852,
+      "filename": "1737676979841-407232715.jpg",
+      "originalName": "pexels-æ´æ¦¤-é­-2399840.jpg",
+      "path": "/uploads/1737676979841-407232715.jpg",
+      "size": 948813,
+      "mimetype": "image/jpeg"
+    },
+    {
+      "id": 1737679669138,
+      "filename": "1737679669122-726973687.jpg",
+      "originalName": "pexels-miguel-Ã¡-padriÃ±Ã¡n-343457.jpg",
+      "path": "/uploads/1737679669122-726973687.jpg",
+      "size": 3027698,
+      "mimetype": "image/jpeg"
+    }
+  ]
+}
